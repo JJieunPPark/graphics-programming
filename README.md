@@ -66,10 +66,10 @@ This repository contains coursework, experiments, and personal studies related t
 |--------|--------|
 | HW01 | OpenGL 기초 |
 | HW02 | 변환(Transformation) |
-| HW03 | 래스터화 |
+| HW03 | 래스터화(Rasterization) |
 | HW04 | 카메라 시스템 |
 | HW05 | 렌더링 파이프라인 |
-| HW06 | 퐁 반사 모델 |
+| HW06 | Phong Reflaction 모델 |
 
 ## 소개
 
