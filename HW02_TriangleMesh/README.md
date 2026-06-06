@@ -1,14 +1,6 @@
-# HW02 - Triangle Mesh Rendering
+﻿# HW02 - Triangle Mesh Rendering
 
 OpenGL의 Vertex Buffer Object(VBO)와 Index Buffer Object(IBO)를 이용하여 다양한 3D 모델을 렌더링하는 과제입니다.
-
-## Result
-
-![Cube](images/cube.png)
-
-![Avocado](images/avocado.png)
-
-![Donut](images/donut.png)
 
 ## 구현 내용
 
