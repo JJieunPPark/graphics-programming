@@ -1,1 +1,59 @@
+# HW04 - Camera System
 
+사용자 입력을 통해 카메라의 위치, 회전, 시야각을 제어하는 OpenGL 카메라 시스템을 구현한 과제입니다. GLFW, ImGui, imGuIZMO.quat를 활용하여 FPS 스타일의 카메라 조작 기능을 구현했습니다. :contentReference[oaicite:0]{index=0}
+
+## 구현 내용
+
+- Camera 클래스 구현
+- Quaternion 기반 카메라 회전
+- Camera Pose(Matrix) 계산
+- View Matrix 생성
+- Perspective Projection 생성
+- Orthographic Projection 생성
+- Projection Mode 전환
+- Keyboard 입력 기반 카메라 이동
+- ImGui 기반 카메라 제어 UI
+- imGuIZMO.quat 기반 카메라 회전 조작
+
+## 조작 방법
+
+### Keyboard
+
+| Key | Function |
+|------|------|
+| W | Forward |
+| S | Backward |
+| A | Left |
+| D | Right |
+
+### GUI
+
+- Camera Rotation Gizmo
+- Perspective / Orthographic Toggle
+- Camera Parameter Visualization
+
+## 사용 기술
+
+- C++
+- OpenGL
+- GLFW
+- GLEW
+- GLM
+- ImGui
+- imGuIZMO.quat
+
+## 핵심 구현
+
+- Quaternion ↔ Rotation Matrix 변환
+- Camera Position 및 Orientation 관리
+- View Matrix 계산
+- Projection Matrix 계산
+- Camera Pose 추출 및 갱신
+
+## 배운 점
+
+이번 과제를 통해 Model Matrix와 Camera(View Matrix)의 차이를 이해하고, 카메라 이동과 회전이 실제로는 월드를 반대로 변환하는 과정이라는 점을 학습했습니다.
+
+또한 Quaternion을 이용한 회전 표현 방식을 구현하며 3차원 회전과 카메라 자세(Pose)를 다루는 방법을 익혔습니다.
+
+Perspective Projection과 Orthographic Projection의 차이를 실험하며 카메라 시스템이 렌더링 결과에 미치는 영향을 확인할 수 있었습니다.
