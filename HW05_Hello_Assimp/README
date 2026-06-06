@@ -1,1 +1,56 @@
+# HW05 - Hello Assimp
 
+Assimp(Open Asset Import Library)를 이용하여 3D 모델을 불러오고, 여러 개의 카메라와 객체를 관리하는 장면(Scene) 렌더링 시스템을 구현한 과제입니다. :contentReference[oaicite:0]{index=0}
+
+## 구현 내용
+
+- Assimp를 이용한 3D 모델 로딩
+- Vertex Buffer Object(VBO) 생성
+- Index Buffer Object(IBO) 생성
+- Mesh 렌더링 구현
+- Model Matrix 생성
+- 다중 객체(Scene Object) 관리
+- 다중 카메라(Camera) 관리
+- ImGui 기반 객체 및 카메라 선택
+- 장면(Scene) 정보 로드
+- 장면(Scene) 정보 저장
+
+## 사용 기술
+
+- C++
+- OpenGL
+- GLFW
+- GLEW
+- GLM
+- ImGui
+- Assimp
+
+## 주요 기능
+
+### Object System
+
+- 모델 로드
+- 위치(Translation) 제어
+- 크기(Scaling) 제어
+- 렌더링
+
+### Camera System
+
+- 다중 카메라 생성
+- 카메라 선택
+- 카메라 이동
+- 카메라 전환
+
+### Scene System
+
+- info.txt 기반 장면 구성
+- 장면 정보 저장 및 불러오기
+- 다중 모델 관리
+
+## 배운 점
+
+이번 과제를 통해 Assimp를 사용하여 다양한 3D 모델 파일을 프로그램 내부로 불러오는 방법을 학습했습니다.
+
+또한 하나의 객체만 렌더링하는 것이 아니라 여러 개의 모델과 여러 개의 카메라를 동시에 관리하는 Scene 구조를 구현하면서 실제 그래픽스 프로그램의 구조를 이해할 수 있었습니다.
+
+특히 Model, Camera, Scene을 각각 독립적인 객체로 관리하는 방식과 외부 파일을 이용해 장면을 구성하는 방법을 경험하며 그래픽스 엔진의 기본 구조를 학습할 수 있었습니다.
