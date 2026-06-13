@@ -2,6 +2,16 @@
 
 OpenGL의 Vertex Buffer Object(VBO)와 Index Buffer Object(IBO)를 이용하여 다양한 3D 모델을 렌더링하는 과제입니다.
 
+##구현결과
+### MeshI
+![MeshI](images/MeshI.png)
+
+### MeshI1
+![MeshI1](images/MeshI1.png)
+
+### MeshI2
+![MeshI2](images/MeshI2.png)
+
 ## 구현 내용
 
 - Triangle Soup 방식 렌더링
