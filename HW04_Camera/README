@@ -2,6 +2,14 @@
 
 사용자 입력을 통해 카메라의 위치, 회전, 시야각을 제어하는 OpenGL 카메라 시스템을 구현한 과제입니다. GLFW, ImGui, imGuIZMO.quat를 활용하여 FPS 스타일의 카메라 조작 기능을 구현했습니다. :contentReference[oaicite:0]{index=0}
 
+## 구현 결과
+
+### 모델 위치 변형
+![CameraI](images/CameraI.png)
+
+### 카메라 시야각 조절
+![CameraI1](images/CameraI1.png)
+
 ## 구현 내용
 
 - Camera 클래스 구현
