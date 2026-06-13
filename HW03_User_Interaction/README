@@ -2,6 +2,14 @@
 
 GLFW와 ImGui를 사용하여 사용자의 입력에 따라 3D 객체의 이동, 크기 변환, 회전을 조작하는 프로그램을 구현한 과제입니다. :contentReference[oaicite:0]{index=0}
 
+## 구현 결과
+
+### InterI
+![InterI](images/InterI.png)
+
+### InterI1
+![InterI1](images/InterI1.png)
+
 ## 구현 내용
 
 - GLFW Keyboard Callback을 이용한 사용자 입력 처리
