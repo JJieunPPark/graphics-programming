@@ -2,6 +2,14 @@
 
 Assimp(Open Asset Import Library)를 이용하여 3D 모델을 불러오고, 여러 개의 카메라와 객체를 관리하는 장면(Scene) 렌더링 시스템을 구현한 과제입니다. :contentReference[oaicite:0]{index=0}
 
+## 실행 결과
+
+### 각 모델 회전및 이동
+![AssimpI](images/AssimpI.png)
+
+### 모델별 카메라 변경
+![AssimpI1](images/AssimpI1.png)
+
 ## 구현 내용
 
 - Assimp를 이용한 3D 모델 로딩
