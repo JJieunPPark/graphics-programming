@@ -4,10 +4,10 @@ GLFW와 ImGui를 사용하여 사용자의 입력에 따라 3D 객체의 이동,
 
 ## 구현 결과
 
-### InterI
+### 모델 회전및 이동
 ![InterI](images/InterI.png)
 
-### InterI1
+### 모델 사이즈 변경
 ![InterI1](images/InterI1.png)
 
 ## 구현 내용
