@@ -3,6 +3,11 @@
 
 OpenGL을 이용하여 **Per-Pixel Phong Reflection Model**을 구현한 프로젝트입니다.
 
+#기본 실행화면
+![phong](images/phong.png)
+#각 light 별 조절 화면
+![phong1](images/phong1.png)
+
 ## Overview
 
 이번 과제에서는 기존 **Per-Vertex Lighting**을 **Per-Pixel Lighting**으로 변경하여 보다 자연스러운 조명 효과를 구현했습니다.
